@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+
 import 'Home/home.dart';
 
 void main() {
@@ -15,6 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
+        brightness: Brightness.light,
         fontFamily: "Poppins"
       ),
       title: 'Food App',
