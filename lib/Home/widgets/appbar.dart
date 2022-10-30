@@ -14,13 +14,16 @@ class Appbar extends StatelessWidget {
               padding: const EdgeInsets.only(left: 5.0),
               child: Text(
                 "What would you like to eat?",
-                style: TextStyle(color: mPrimaryColor, fontSize: 18),
+                style: TextStyle(
+                    color: mPrimaryColor,
+                    fontSize: 18,
+                    fontWeight: FontWeight.bold),
               )),
         ),
         Padding(
           padding: const EdgeInsets.all(8.0),
           child: Padding(
-            padding: const EdgeInsets.only(left: 57.5),
+            padding: const EdgeInsets.only(left: 21.0),
             child: IconButton(
               icon: Image.asset(
                 'assets/icons/bell.png',

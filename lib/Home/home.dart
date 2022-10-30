@@ -5,6 +5,7 @@ import 'package:foodapp/Home/widgets/search.dart';
 
 import '../constants/colors.dart';
 import 'widgets/appbar.dart';
+import 'widgets/bestfood.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});
@@ -43,7 +44,7 @@ class Home extends StatelessWidget {
             padding: const EdgeInsets.all(24.0),
             child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
-                children: const [Appbar(), Searchbar(), Category(), PopularFood()]),
+                children: const [Appbar(), Searchbar(), Category(), PopularFood(), Bestfood()]),
           ),
         ));
   }

@@ -27,14 +27,14 @@ class Category extends StatelessWidget {
                             child: Container(
                                 decoration: BoxDecoration(
                                   color: Colors.white,
-                                  boxShadow: [
-                                    BoxShadow(
-                                      color: mSecondaryColor,
-                                      spreadRadius: 1,
-                                      blurRadius: 10,
-                                      offset: const Offset(0, 4),
-                                    ),
-                                  ]
+                                  // boxShadow: [
+                                  //   BoxShadow(
+                                  //     color: mSecondaryColor,
+                                  //     spreadRadius: 10,
+                                  //     blurRadius: 15,
+                                  //     offset: const Offset(5, 5),
+                                  //   ),
+                                  // ]
                                 ),
                                 child: Padding(
                                   padding: const EdgeInsets.all(8.0),
@@ -42,8 +42,11 @@ class Category extends StatelessWidget {
                                 )),
                           ),
                           Padding(
-                            padding: const EdgeInsets.only(top:8.0),
-                            child: Text(categoryList[index].name, style: const TextStyle(fontSize: 11),),
+                            padding: const EdgeInsets.only(top: 8.0),
+                            child: Text(
+                              categoryList[index].name,
+                              style: const TextStyle(fontSize: 9),
+                            ),
                           ),
                         ],
                       )),
