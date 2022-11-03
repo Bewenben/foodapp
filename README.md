@@ -2,6 +2,10 @@
 
 ## Changelog
 
+### Version 0.4
+
+- Details Page Done
+
 ### Version 0.3
 
 - Homepage Done
